@@ -362,6 +362,7 @@ width: 200px;
 	right: 20px;
 	z-index: 99;
 	cursor: pointer;
+	animation: shake 0.7s cubic-bezier(.36,.07,.19,.97) infinite;
   }
   
 #back-to-top img {
