@@ -217,17 +217,19 @@
 				<img src="./image/btn.png" alt="Back to Top">
 			</div>
 	</div>
+
+	<script>
+		document.getElementById('back-to-top').addEventListener('click', function() {
+	  document.documentElement.scrollTo({
+		top: 0,
+		behavior: 'smooth'
+	  });
+	});
+	
+	</script>
+
 </body>
 
-<script>
-	document.getElementById('back-to-top').addEventListener('click', function() {
-  document.documentElement.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-});
 
-
-</script>
 </html>
 

@@ -362,8 +362,6 @@ width: 200px;
 	right: 20px;
 	z-index: 99;
 	cursor: pointer;
-	justify-content:end;
-	align-items: end;
   }
   
 #back-to-top img {
